@@ -8,8 +8,8 @@ meta_Aprovacao = 180
 
 #coleta as notas dos três periodos 
 for i in range(1, quantidade_trimestres + 1):
-    nota = float(input(f"Informe a nota{i}º periodo: "))
-soma_notas +=nota
+    nota = float(input("Informe a nota{i}º periodo: "))
+    soma_notas +=nota
 
 print("-" * 30)
 print(f"Escudante: {nome}")
